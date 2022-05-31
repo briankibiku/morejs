@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>30DaysOfScript:Inline Script</title>
+  </head>
+  <body>
+    <!--Inline JS-->
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click MWA</button>
+    <!--Internal JS placed closest to end of BODY tag-->
+    <script>
+      let myString = "Javascript";
+      const splitArray = myString.split("");
+      console.log(splitArray);
+      console.log(splitArray.indexOf("a"));
+      const numbers = [1, 2, 3, 4, 5];
+      console.log(numbers.includes(5));
+      console.log(numbers.shift());
+      console.log(numbers.unshift(0));
+    </script>
+  </body>
+</html>
